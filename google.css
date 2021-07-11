@@ -1,0 +1,102 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+img{
+    width: 200;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+
+.textbox input{
+    width: 480px;
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    border: 3px solid gainsboro;
+    border-radius: 15px;
+    font-size: 18px ;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px ;
+    box-shadow: 1px 1px 7px grey;
+    text-indent: 40px; /* satır başına boşluk bırakma */
+}
+
+#btn1 {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    text-align: center;
+    border: 1px #f2f2f2 ;
+    color: #5f6368;
+    font-family: Arial ;
+    font-size: 14px;
+    height: 36px;
+    box-shadow: 7px 2px 10px grey;
+}
+
+#btn2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    border: 1px #f2f2f2 ;
+    color: #5f6368;
+    font-family: Arial ;
+    font-size: 14px;
+    height: 36px;
+    box-shadow: 7px 2px 10px grey;
+}
+
+div>p {
+    float: left;
+    margin-right: 20px;
+}
+
+#sağ{
+    position: absolute;
+    right: 0%;
+}
+
+#diger {
+    position: absolute;
+    top: 31%;
+    left: 36%;
+}
+
+i {
+    position: absolute;
+    top: 31%;
+    left: 65%;
+}
+
+
+.altsol {
+    position: absolute;
+    bottom: 0%;
+}
+
+.altsag {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.leftt {
+    float: left;
+    margin-right: 10px;
+    color: black;
+}
+
+.maviyap {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    text-decoration:none; /* altçizgi kaldırma*/
+}
+
+a {
+    text-decoration:none;
+}
